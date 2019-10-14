@@ -5,7 +5,7 @@ function postColor(color) {
             body: JSON.stringify({
 				id: `${i}`,
                 color: [parseInt(Math.random()*255), 80, 120],
-                session: 'whatever',
+                session: 'main',
             }),
             headers: {
                 'Content-Type': 'application/json',
